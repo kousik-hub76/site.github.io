@@ -1,0 +1,126 @@
+.break{
+    width: 18%;
+    border-radius: 20px;
+    color: blue;
+    
+    
+   
+}
+.medium_text{
+    color: white;
+    display: flex;
+    justify-content:flex-start;
+    font-weight: 700;
+    font-size: 26px;
+    font-family:'Roboto Condensed', sans-serif;
+}
+
+.small_text{
+    color: white;
+    font-weight: 550;
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.textcap{
+    
+}
+
+.textsmall{
+    padding-top: 10px;
+}
+.carousel{
+    padding-top: 20px;
+}
+.d-block{
+    height: 70%;
+    width: 100%;
+}
+.button_ca{
+    background: white;
+    border: none;
+    color: #f5811b;
+    border-radius: 15px;
+    padding: 2px 15px;
+    font-weight: bold;
+    
+}
+.smaller_text{
+    color: white;
+    font-weight: 550;
+    font-size: 16px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.btn{
+    background: #f5811b;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 5px 30px;
+}
+.btn1{
+    background: #f5811b;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 50px;
+    border: none;
+    font-size: 20px;
+}
+.larger_text{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    padding-bottom: 20px;
+}
+
+
+.timeline ul li {
+    list-style-type: none;
+    position:relative;
+    width:4px;
+    margin: 0 ;
+    padding-top: 50px;
+    background: black;
+  }
+   
+  .timeline ul li::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: inherit;
+    z-index: 1;
+  }
+
+  .text1{
+    display: flex;
+    justify-content:flex-start;
+    font-weight: 500;
+    font-size: 20px;
+    font-family:'Roboto Condensed', sans-serif;
+    padding-top: 40px;
+  }
+.text2{
+    display: flex;
+    justify-content:flex-start;
+    font-weight: 800;
+    font-size: 20px;
+    font-family:'Roboto Condensed', sans-serif;
+    padding-top: 20px;
+}
+.button_end{
+    background: white;
+    border: none;
+    color: #f5811b;
+    border-radius: 15px;
+    padding: 6px 25px;
+    font-weight: bold;
+    font-size: 18px;
+    
+}

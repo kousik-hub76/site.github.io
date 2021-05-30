@@ -1,5 +1,8 @@
+body{
+  background-image: linear-gradient(to bottom, #0bb9f4, #00d6f0, #00edbf, #7afb71, #faf900);
+}
 .App {
-  text-align: center;
+  text-align: initial;
 }
 
 .App-logo {
@@ -28,6 +31,9 @@
   color: #61dafb;
 }
 
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +42,5 @@
     transform: rotate(360deg);
   }
 }
+
+
