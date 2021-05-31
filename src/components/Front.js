@@ -6,25 +6,31 @@ function Front() {
     return (
 
         <div className="container">
-            <div className="row m-auto">
-                <div className="col-lg-12 col-md-12 col-sm-10 ml-0">
+            <div className="home_main row m-auto">
+                <div className=" col-lg-12 col-md-12 col-sm-10 ml-0">
                     <div class="row">
                         <div className="col-6">
                             <div className="row">
-                                <h1>First row</h1>
-                            </div>
-                            <div className="row">
-                                <h1>Second row</h1>
+                                <div className="col-3"></div>
+                                <div className="col-8">
+                                    <div className="row">
+                                        <img className="img_logo" src="https://www.vhv.rs/dpng/d/493-4939983_camera-logo-png-hd-download-transparent-png.png" alt="" />
+                                    </div>
+                                    <div className="row">
+                                        <small className="text2">alignment along <br />the main axis. It <br />helps distribute</small>
+                                    </div>
+                                </div>
+                                <div className="col-1"></div>
                             </div>
                         </div>
                         <div className="col-6">
                             <div class="card text-white">
-                                <img src={BckImg} className="card-img" style={{ height: '80vh' }} />
-                                <div class="card-img-overlay">
+                                <img src={BckImg} className="card-img" />
+                                {/* <div class="card-img-overlay">
                                     <h5 class="card-title">Card title</h5>
                                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                     <p class="card-text">Last updated 3 mins ago</p>
-                                </div>
+                                </div> */}
 
                             </div>
                         </div>
@@ -56,8 +62,8 @@ function Front() {
             {/* ------video part----------- */}
             <div className="row m-0">
                 <div className="col-lg-11 col-md-12 col-sm-12 m-auto">
-                    <div className="card-body text-center">
-                        <iframe width="90%" height="480vh" src="https://www.youtube.com/embed/3CRSF69PJD0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div className="video_div text-center">
+                        <iframe className="video" src="https://www.youtube.com/embed/3CRSF69PJD0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                     </div>
                 </div>
@@ -80,7 +86,7 @@ function Front() {
                         </span>
                     </div>
                     {/* -------------------carasouel----------------------------- */}
-
+                    {/* <div className="carousel_div "> */}
                     <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
                         <div className="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -125,7 +131,9 @@ function Front() {
                             <span className="visually-hidden">Next</span>
                         </button>
                     </div>
-                    {/* ------------------------------------------- */}
+                    {/* </div> */}
+
+                    {/* ---------------------after carosuel button---------------------- */}
                     <div style={{ paddingTop: '30px', paddingBottom: '30px', textAlign: 'center' }}>
                         <button className="btn1">Conheca nossos herois</button>
                     </div>
@@ -161,25 +169,32 @@ function Front() {
                                 <ul>
                                     <li>
                                         <div>
-                                            <time>1934</time>
-                                            Some content here
+                                            <time>1975</time>
+
                                         </div>
                                     </li>
                                     <li>
                                         <div>
-                                            <time>1934</time>
-                                            Some content here
+                                            <time>1990</time>
+
                                         </div>
                                     </li>
 
                                     <li>
                                         <div>
-                                            <time>1934</time>
-                                            Some content here
+                                            <time>2010</time>
+
                                         </div>
                                     </li>
 
-                                    {/* <!-- more list items here --> */}
+                                    <li>
+                                        <div>
+                                            <time>2010</time>
+
+                                        </div>
+                                    </li>
+
+
                                 </ul>
                             </section>
                         </div>
@@ -198,7 +213,7 @@ function Front() {
                         <div className="col-lg-4 col-md-12 col-sm-10 m-auto">
                             <small className="text1">Conheca nossa historia This defines the alignment along the main axis. It helps distribute </small>
                             <small className="text2">alignment along the main axis. It helps distribute</small>
-                            <div style={{ textAlign: 'center', paddingTop: '10px', paddingBottom: '20px' }}>
+                            <div className="button_end_style">
                                 <button className="button_end">Doe</button>
                             </div>
                         </div>

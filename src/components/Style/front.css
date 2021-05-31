@@ -29,8 +29,10 @@
 .textsmall{
     padding-top: 10px;
 }
+/* ------------------carousel------------------ */
 .carousel{
     padding-top: 20px;
+       
 }
 .d-block{
     height: 70%;
@@ -45,12 +47,14 @@
     font-weight: bold;
     
 }
+/* ------------------x--------------------- */
 .smaller_text{
     color: white;
     font-weight: 550;
     font-size: 16px;
     font-family: 'Libre Baskerville', serif;
 }
+
 
 .btn{
     background: #f5811b;
@@ -75,7 +79,7 @@
     padding-bottom: 20px;
 }
 
-
+/* -------------------Vertical line------------------ */
 .timeline ul li {
     list-style-type: none;
     position:relative;
@@ -97,6 +101,7 @@
     background: inherit;
     z-index: 1;
   }
+  /* ----------------------x------------------ */
 
   .text1{
     display: flex;
@@ -104,7 +109,7 @@
     font-weight: 500;
     font-size: 20px;
     font-family:'Roboto Condensed', sans-serif;
-    padding-top: 40px;
+    
   }
 .text2{
     display: flex;
@@ -119,8 +124,105 @@
     border: none;
     color: #f5811b;
     border-radius: 15px;
-    padding: 6px 25px;
+    padding: 6px 30px;
     font-weight: bold;
     font-size: 18px;
+    
+}
+
+/* ------------------------------- */
+
+/* ----------------------------------------- */
+
+
+
+@media screen and (min-width: 768px) {
+    .video {
+       padding-top: 20px;
+        height: 80vh;
+        width: 100%;
+    }
+    
+    .img_logo{
+        padding-top: 40px;
+        height: 50vh;
+        width: auto;
+
+    }
+    .text2{
+        justify-content: center;
+    }
+    .card-img{
+        height: 80vh;
+    }
+    .text1{
+        padding-top: 70px;
+    }
+    .button_end_style{
+        padding-top: 25px;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .video {
+       padding-top: 20px;
+        height: 40vh;
+        width: 100%;
+        
+    }
+    .home_main{
+        
+        height: 40vh;
+    }
+    
+    .img_logo{
+        padding-top: 30px;
+        height: 15vh;
+    }
+    .card-img{
+        height: 40vh;
+    }
+    .text1{
+        padding-top: 10px;
+    }
+    .text2{
+        padding-top: 5px;
+        font-size: 16px;
+    }
+    .button_end_style{
+        padding-top: 30px;
+        text-align: center;
+    }
+    /* ---------------Horizontal Line ------------------------ */
+    .timeline{
+        -webkit-transform: rotate(-90deg);
+        /* -moz-transform: rotate(-90deg); */
+        /* writing-mode: tb-rl; */
+        /* filter: flipv fliph; */
+        
+
+    }
+    .timeline ul li {
+        list-style-type: none;
+        position:relative;
+        width:4px;
+        margin: 0 ;
+        padding-top: 50px;
+        background: black;
+      }
+       
+      .timeline ul li::after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: inherit;
+        z-index: 1;
+      }
+      /* ------------------x-------------- */
     
 }
