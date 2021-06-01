@@ -26,11 +26,7 @@ function Front() {
                         <div className="col-6">
                             <div class="card text-white">
                                 <img src={BckImg} className="card-img" />
-                                {/* <div class="card-img-overlay">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text">Last updated 3 mins ago</p>
-                                </div> */}
+
 
                             </div>
                         </div>
@@ -111,7 +107,7 @@ function Front() {
                                             <img className="fea" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc4ldWgEOkaCEYz-UkHUHJH__WoIKcs_p6wzY1BQr5KX5lE0f_P9sKPw_Ysj_68T6ue1Q&usqp=CAU" height="100%" width="100%" />
 
                                             <div className="text-div">
-                                                <text className="card-text">something here</text>
+                                                <text className="card-text">something added will be here</text>
                                                 <div className="btn2-div m-0 mt-1">
                                                     <button className="btn2">ler mais</button>
                                                 </div>
@@ -120,7 +116,7 @@ function Front() {
                                         <label htmlFor="s2" id="slide2">
                                             <img className="fea" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwGPF8X5lgcLBtUZUXV9kPPpfw7IuIsTq3uQ&usqp=CAU" height="100%" width="100%" />
                                             <div className="text-div">
-                                                <text className="card-text">something here</text>
+                                                <text className="card-text">something added will be here</text>
                                                 <div className="btn2-div m-0 mt-1">
                                                     <button className="btn2">ler mais</button>
                                                 </div>
@@ -129,7 +125,7 @@ function Front() {
                                         <label htmlFor="s3" id="slide3">
                                             <img className="fea" src="https://images.unsplash.com/photo-1612151855475-877969f4a6cc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGQlMjBpbWFnZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80" height="100%" width="100%" />
                                             <div className="text-div">
-                                                <text className="card-text">something here</text>
+                                                <text className="card-text">something added will be here</text>
                                                 <div className="btn2-div m-0 mt-1">
                                                     <button className="btn2">ler mais</button>
                                                 </div>
@@ -152,7 +148,7 @@ function Front() {
                     </div >
                     {/* --------------------some text and year-------------------------------- */}
                     <div className="break-dgn mb-2 mt-2"></div>
-                    <div className="row" >
+                    <div className="row mt-2 mb-2" >
 
                         <div className="textcap">
                             <small className="medium_text">Conheca nossa historia</small>
@@ -180,66 +176,63 @@ function Front() {
                         </div>
                         <div className="col-lg-3 col-md-12 col-sm-10 m-auto">
                             {/* ------------------year-------------- */}
-                            <div class="continput">
-                                <h1>Jelly Radio btn</h1>
-                                <h4>I hope you enjoyed it</h4>
-                                <ul>
-                                    <li>
-                                        <input checked type="radio" name="1" />
-                                        <label>OMG a radio!</label>
-                                        <div class="bullet">
-                                            <div class="line zero"></div>
-                                            <div class="line one"></div>
-                                            <div class="line two"></div>
-                                            <div class="line three"></div>
-                                            <div class="line four"></div>
-                                            <div class="line five"></div>
-                                            <div class="line six"></div>
-                                            <div class="line seven"></div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <input type="radio" name="1" />
-                                        <label>Uuuuh radio</label>
-                                        <div class="bullet">
-                                            <div class="line zero"></div>
-                                            <div class="line one"></div>
-                                            <div class="line two"></div>
-                                            <div class="line three"></div>
-                                            <div class="line four"></div>
-                                            <div class="line five"></div>
-                                            <div class="line six"></div>
-                                            <div class="line seven"></div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <input type="radio" name="1" />
-                                        <label>radio everywhere</label>
-                                        <div class="bullet">
-                                            <div class="line zero"></div>
-                                            <div class="line one"></div>
-                                            <div class="line two"></div>
-                                            <div class="line three"></div>
-                                            <div class="line four"></div>
-                                            <div class="line five"></div>
-                                            <div class="line six"></div>
-                                            <div class="line seven"></div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
+
+
                             {/* ---------------------x--------------- */}
                         </div>
-
+                        {/* -------------------year------------------- */}
+                        <div className="year">
+                            <span id="reponses">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <label for="answer_1">1</label>
+                                            </td>
+                                            <td>
+                                                <label for="answer_2">2</label>
+                                            </td>
+                                            <td>
+                                                <label for="answer_3">3</label>
+                                            </td>
+                                            <td>
+                                                <label for="answer_4">4</label>
+                                            </td>
+                                            <td>
+                                                <label for="answer_5">5</label>
+                                            </td>
+                                        </tr>
+                                        <tr className="line">
+                                            <td>
+                                                <input className="answer" id="answer_1" type="radio" />
+                                            </td>
+                                            <td>
+                                                <input className="answer" id="answer_2" type="radio" />
+                                            </td>
+                                            <td>
+                                                <input className="answer" id="answer_3" type="radio" />
+                                            </td>
+                                            <td>
+                                                <input className="answer" id="answer_4" type="radio" />
+                                            </td>
+                                            <td>
+                                                <input className="answer" id="answer_5" type="radio" />
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </span>
+                        </div>
+                        {/* ------------------x----------------------- */}
 
                     </div >
                     {/* ------------------------------------------------------- */}
-                    < div className="row" >
+                    <div className="row mt-2 mb-4" >
 
 
                         <div className="col-lg-8 col-md-12 col-sm-10 m-auto">
 
-                            <img src={BckImg} style={{ width: '100%', paddingTop: '20px', paddingBottom: '20px' }} />
+                            <img src={BckImg} style={{ width: '100%' }} />
 
 
                         </div>
