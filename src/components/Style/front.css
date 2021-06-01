@@ -1,10 +1,10 @@
-.break{
-    width: 18%;
-    border-radius: 20px;
-    color: blue;
+
+.break-dgn{
+    background: white;
+    width: 16%;
+    border-radius: 10px;
+    height: 6px;
     
-    
-   
 }
 .medium_text{
     color: white;
@@ -30,37 +30,31 @@
     padding-top: 10px;
 }
 /* ------------------carousel------------------ */
-/* .carousel{
-    padding-top: 20px;
-       
-}
-.d-block{
-    height: 70%;
-    width: 100%;
-}
-.button_ca{
-    background: white;
-    border: none;
-    color: #f5811b;
-    border-radius: 15px;
-    padding: 2px 15px;
-    font-weight: bold;
-    
-} */
 
-
-  
   [type=radio] {
     display: none;
   }
   
  .carousel{
-     justify-content: center;
-     text-align: center;
-     height: 75vh;
      width: 65%;
+     
     
  }
+ .text-div{
+    position:relative;
+    bottom: 35%;
+    text-align: center;
+    color: white;
+    
+ }  
+ .btn2{
+     color: #f5811b;
+     border: none;
+     border-radius: 15px;
+     padding: 4px 20px;
+     font-weight: bold;
+ }
+
   #slider {
     height: 30vw;
     width: 50vw;
@@ -119,6 +113,7 @@
     border-radius: 20px;
     padding: 5px 30px;
 }
+
 .btn1{
     background: #f5811b;
     color: white;
@@ -131,32 +126,12 @@
 .larger_text{
     font-size: 50px;
     font-weight: 700;
-    line-height: 60px;
-    padding-bottom: 20px;
+    line-height: 50px;
+    margin-bottom:  20px;
 }
 
-/* -------------------Vertical line------------------ */
-.timeline ul li {
-    list-style-type: none;
-    position:relative;
-    width:4px;
-    margin: 0 ;
-    padding-top: 50px;
-    background: black;
-  }
-   
-  .timeline ul li::after {
-    content: '';
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background: inherit;
-    z-index: 1;
-  }
+/* -------------------year------------------ */
+
   /* ----------------------x------------------ */
 
   .text1{
@@ -194,8 +169,8 @@
 
 @media screen and (min-width: 768px) {
     .video {
-       padding-top: 20px;
-        height: 100vh;
+       /* padding-top: 20px; */
+        height: 80vh;
         width: 90%;
     }
     
@@ -217,22 +192,41 @@
     .button_end_style{
         padding-top: 25px;
     }
+    .btn1-div{
+        text-align: center;
+        margin-top: -70px;
+        margin-bottom: 25px;
+        
+    }
     
 }
 @media screen and (max-width: 768px) {
+    .break-dgn{
+        width: 18%;
+    }
     .video {
        padding-top: 20px;
         height: 40vh;
         width: 100%;
     }
     .carousel{
-        width: 50vw;
+        width: 55vw;
         height: 30vh;
     }
     .carousel{
-        height: 25vh;
-        width: 55vw;
+        /* height: 30vh; */
+        /* width: 55vw; */
     }
+    .card-text{
+        display: none;
+    }
+    .btn2-div{
+        
+    }
+    .btn2{
+        font-size: 12px;
+    }
+    
     #slider {
         height: 40vw;
         width: 60vw;
@@ -244,20 +238,25 @@
         
       }
       
-      /* #slider label {
+      #slider label {
         margin: auto;
         background-color: aliceblue;
         width: 70%;
-        height: 90%;
+        height: 95%;
         border-radius: 4px;
         position: absolute;
         left: 0; right: 0;
         cursor: pointer;
         transition: transform 0.4s ease;
         
-      } */
-    .home_main{
+      }
+      .btn1-div{
+        text-align: center;
+       margin-top: 25px;
+        margin-bottom: 20px;
         
+    }
+    .home_main{
         height: 40vh;
     }
     
@@ -280,36 +279,78 @@
         padding-bottom: 20px;
         text-align: center;
     }
-    /* ---------------Horizontal Line ------------------------ */
-    .timeline{
-        -webkit-transform: rotate(-90deg);
-        /* -moz-transform: rotate(-90deg); */
-        /* writing-mode: tb-rl; */
-        /* filter: flipv fliph; */
-        
-
+    .small_text{
+        font-size: 14px;
     }
-    .timeline ul li {
-        list-style-type: none;
-        position:relative;
-        width:4px;
-        margin: 0 ;
-        padding-top: 50px;
-        background: black;
-      }
-       
-      .timeline ul li::after {
-        content: '';
-        position: absolute;
-        left: 50%;
-        bottom: 0;
-        transform: translateX(-50%);
-        width: 15px;
-        height: 15px;
-        border-radius: 50%;
-        background: inherit;
-        z-index: 1;
-      }
+    .medium_text{
+        font-size: 22px;
+    }
+    .larger_text{
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    .smaller_text{
+        font-size: 14px;
+    }
+    .text1,.text2{
+        font-size: 16px;
+    }
+    
+    /* ---------------year ------------------------ */
+ 
+    
+      
       /* ------------------x-------------- */
     
+}
+@media screen and (width: 1024px) {
+    .video{
+        height: 30vh;
+        width: 100%;
+    }
+    .img_logo{
+        padding-top: 40px;
+        height: 26vh;
+        width: auto;
+
+    }
+    .card-img{
+        height: 40vh;
+    }
+    .btn1-div{
+        text-align: center;
+       margin-top: -70px;
+    }
+    .card-text{
+        display: none;
+    }
+    .text-div{ 
+        bottom: 25%;   
+     }
+    
+}
+@media screen and (width: 768px) {
+    .btn1-div{
+        text-align: center;
+       margin-top: 70px;
+       
+    }
+    .btn2{
+        font-size: 16px;
+        
+    }
+    .text-div{ 
+        bottom: 25%;   
+     }
+    
+}
+@media screen and (width:540px) {
+    .btn1-div{
+        text-align: center;
+       margin-top: 55px;
+       
+    }
+    .text-div{ 
+        bottom: 25%;   
+     }
 }

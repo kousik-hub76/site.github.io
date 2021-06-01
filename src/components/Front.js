@@ -8,7 +8,7 @@ function Front() {
         <div className="container">
             <div className="home_main row m-auto">
                 <div className=" col-lg-12 col-md-12 col-sm-10 ml-0">
-                    <div class="row">
+                    <div class="row mt-2 mb-2">
                         <div className="col-6">
                             <div className="row">
                                 <div className="col-3"></div>
@@ -42,10 +42,11 @@ function Front() {
 
 
 
-            <div className="row m-auto">
+            <div className="row m-auto mt-2">
                 <div className="col-lg-10 col-md-12 col-sm-10 m-auto">
                     {/* <div class="row"> */}
-                    <hr className="break" style={{ height: '7px' }} />
+                    <div className="break-dgn mb-2 mt-2"></div>
+                    {/* <hr className="break" style={{ height: '7px' }} /> */}
                     <div className="textcap">
                         <small className="medium_text">Junte-se ao nosso chamado</small>
                     </div>
@@ -60,7 +61,7 @@ function Front() {
             </div>
 
             {/* ------video part----------- */}
-            <div className="row m-0">
+            <div className="row m-0 mt-4 mb-2">
                 <div className="col-lg-11 col-md-12 col-sm-12 m-auto">
                     <div className="video_div text-center">
                         <iframe className="video" src="https://www.youtube.com/embed/3CRSF69PJD0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -72,7 +73,7 @@ function Front() {
             {/* ------------image with details------------- */}
             <div className="row m-auto">
                 <div className="col-lg-10 col-md-12 col-sm-10 m-auto">
-                    <hr className="break" style={{ height: '7px' }} />
+                    <div className="break-dgn mb-2 mt-2"></div>
                     <div className="textcap">
                         <small className="medium_text">
                             Junte-se ao nosso chamado
@@ -88,13 +89,13 @@ function Front() {
                     {/* -------------------carasouel----------------------------- */}
 
 
-                    <div className="row m-0">
+                    <div className="row m-0 mt-2 mb-2">
                         <div className="carousel col-lg-10 col-md-12 col-sm-12 m-auto">
                             {/* <div className="carousel text-center"> */}
-                            <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+                            <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10">
                                 <div className="md:w-1/4 py-64 md:mb-0 mb-6 flex flex-col text-center items-center">
                                     <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-orange-100 text-orange-500 mb-5 flex-shrink-0">
-
+                                        {/* <button className="h-10 pr-0" id="pre-btn">{'<'}</button> */}
                                     </div>
                                 </div>
                                 <div className="md:w-2/4 md:mb-0 mb-6 flex flex-col text-center items-center">
@@ -106,19 +107,39 @@ function Front() {
                                         <input type="radio" name="slider" id="s2" defaultChecked="true" />
                                         <input type="radio" name="slider" id="s3" defaultChecked="false" />
                                         <label htmlFor="s1" id="slide1">
+
                                             <img className="fea" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc4ldWgEOkaCEYz-UkHUHJH__WoIKcs_p6wzY1BQr5KX5lE0f_P9sKPw_Ysj_68T6ue1Q&usqp=CAU" height="100%" width="100%" />
+
+                                            <div className="text-div">
+                                                <text className="card-text">something here</text>
+                                                <div className="btn2-div m-0 mt-1">
+                                                    <button className="btn2">ler mais</button>
+                                                </div>
+                                            </div>
                                         </label>
                                         <label htmlFor="s2" id="slide2">
                                             <img className="fea" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwGPF8X5lgcLBtUZUXV9kPPpfw7IuIsTq3uQ&usqp=CAU" height="100%" width="100%" />
+                                            <div className="text-div">
+                                                <text className="card-text">something here</text>
+                                                <div className="btn2-div m-0 mt-1">
+                                                    <button className="btn2">ler mais</button>
+                                                </div>
+                                            </div>
                                         </label>
                                         <label htmlFor="s3" id="slide3">
                                             <img className="fea" src="https://images.unsplash.com/photo-1612151855475-877969f4a6cc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGQlMjBpbWFnZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80" height="100%" width="100%" />
+                                            <div className="text-div">
+                                                <text className="card-text">something here</text>
+                                                <div className="btn2-div m-0 mt-1">
+                                                    <button className="btn2">ler mais</button>
+                                                </div>
+                                            </div>
                                         </label>
                                     </section>
                                 </div>
                                 <div className="md:w-1/4 py-64 md:mb-0 mb-6 flex flex-col text-center items-center">
                                     <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-orange-100 text-orange-500 mb-5 flex-shrink-0">
-
+                                        {/* <button className="h-10 pr-0" id="nex-btn">{'>'}</button> */}
                                     </div>
                                 </div>
                             </div>
@@ -126,13 +147,13 @@ function Front() {
                         </div>
                     </div>
                     {/* ---------------------after carosuel button---------------------- */}
-                    < div style={{ paddingTop: '30px', paddingBottom: '30px', textAlign: 'center' }
-                    }>
+                    <div className="btn1-div">
                         <button className="btn1">Conheca nossos herois</button>
                     </div >
                     {/* --------------------some text and year-------------------------------- */}
-                    < div className="row" >
-                        <hr className="break" style={{ height: '7px' }} />
+                    <div className="break-dgn mb-2 mt-2"></div>
+                    <div className="row" >
+
                         <div className="textcap">
                             <small className="medium_text">Conheca nossa historia</small>
                         </div>
@@ -158,39 +179,58 @@ function Front() {
 
                         </div>
                         <div className="col-lg-3 col-md-12 col-sm-10 m-auto">
-                            <section className="timeline">
+                            {/* ------------------year-------------- */}
+                            <div class="continput">
+                                <h1>Jelly Radio btn</h1>
+                                <h4>I hope you enjoyed it</h4>
                                 <ul>
                                     <li>
-                                        <div>
-                                            <time>1975</time>
-
+                                        <input checked type="radio" name="1" />
+                                        <label>OMG a radio!</label>
+                                        <div class="bullet">
+                                            <div class="line zero"></div>
+                                            <div class="line one"></div>
+                                            <div class="line two"></div>
+                                            <div class="line three"></div>
+                                            <div class="line four"></div>
+                                            <div class="line five"></div>
+                                            <div class="line six"></div>
+                                            <div class="line seven"></div>
                                         </div>
                                     </li>
                                     <li>
-                                        <div>
-                                            <time>1990</time>
-
+                                        <input type="radio" name="1" />
+                                        <label>Uuuuh radio</label>
+                                        <div class="bullet">
+                                            <div class="line zero"></div>
+                                            <div class="line one"></div>
+                                            <div class="line two"></div>
+                                            <div class="line three"></div>
+                                            <div class="line four"></div>
+                                            <div class="line five"></div>
+                                            <div class="line six"></div>
+                                            <div class="line seven"></div>
                                         </div>
                                     </li>
-
                                     <li>
-                                        <div>
-                                            <time>2010</time>
-
+                                        <input type="radio" name="1" />
+                                        <label>radio everywhere</label>
+                                        <div class="bullet">
+                                            <div class="line zero"></div>
+                                            <div class="line one"></div>
+                                            <div class="line two"></div>
+                                            <div class="line three"></div>
+                                            <div class="line four"></div>
+                                            <div class="line five"></div>
+                                            <div class="line six"></div>
+                                            <div class="line seven"></div>
                                         </div>
                                     </li>
-
-                                    <li>
-                                        <div>
-                                            <time>2010</time>
-
-                                        </div>
-                                    </li>
-
-
                                 </ul>
-                            </section>
+                            </div>
+                            {/* ---------------------x--------------- */}
                         </div>
+
 
                     </div >
                     {/* ------------------------------------------------------- */}
