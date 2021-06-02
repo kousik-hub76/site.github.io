@@ -304,8 +304,10 @@ td {
         font-size: 16px;
     }
     .button_end_style{
-        padding-top: 30px;
-        padding-bottom: 20px;
+        /* padding-top: 30px;
+        padding-bottom: 20px; */
+        margin-top: 40px;
+        margin-bottom: 30px;
         text-align: center;
     }
     .small_text{
@@ -323,6 +325,11 @@ td {
     }
     .text1,.text2{
         font-size: 16px;
+    }
+    
+    .rev_div1,.rev_col2{
+        display: flex;
+        flex-direction: column-reverse;
     }
     
     /* ---------------year ------------------------ */
@@ -356,6 +363,9 @@ td {
     .text-div{ 
         bottom: 25%;   
      }
+     .button_end_style{
+        margin-bottom: 25px;
+     }
     
 }
 @media screen and (width: 768px) {
@@ -370,6 +380,9 @@ td {
     }
     .text-div{ 
         bottom: 25%;   
+     }
+     .text2{
+         justify-content: flex-start;
      }
     
 }

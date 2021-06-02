@@ -148,11 +148,11 @@ function Front() {
                     </div >
                     {/* --------------------some text and year-------------------------------- */}
                     <div className="break-dgn mb-2 mt-2"></div>
-                    <div className="row mt-2 mb-2" >
+                    <div className="textcap">
+                        <small className="medium_text">Conheca nossa historia</small>
+                    </div>
+                    <div className="rev_div1 row mt-2 mb-2" >
 
-                        <div className="textcap">
-                            <small className="medium_text">Conheca nossa historia</small>
-                        </div>
                         <div className="col-lg-7 col-md-12 col-sm-10 m-auto">
                             <div className="row">
                                 <div className="larger_text col-10 col-md-12 col-sm-10">
@@ -227,7 +227,7 @@ function Front() {
 
                     </div >
                     {/* ------------------------------------------------------- */}
-                    <div className="row mt-2 mb-4" >
+                    <div className="rev_col2 row mt-2 mb-4" >
 
 
                         <div className="col-lg-8 col-md-12 col-sm-10 m-auto">
